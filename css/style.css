@@ -1,0 +1,558 @@
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+
+html,
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+p {
+    margin: 0 0 15px;
+    color: #5A0B0D;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 10px;
+    color: #5A0B0D;
+}
+
+a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ec4445;
+    text-decoration: none;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0
+}
+
+
+
+
+/* Google fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+
+
+
+/*header part*/
+
+#Full-banner {
+    background: #FFF1DD;
+}
+
+.header-top-left {
+    padding: 6px;
+    color: #5F0B0D;
+}
+
+.social {
+    padding: 6px 0px 0px 80px;
+    color: #5F0B0D;
+}
+
+.header-top-left>a {
+    padding: 21px;
+    color: #5A0B0D;
+}
+
+.fa {
+    padding-left: 7px;
+    color: #5A0B0D;
+}
+
+i.fa.fa-phone,
+i.fa.fa-envelope {
+    padding: 0 16px 0px 0px;
+}
+
+.logo img {
+    max-width: 34%;
+    margin-top: 20px;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-left: 56px;
+    padding-top: 46px;
+}
+
+.menu ul li a {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #5A0B0D;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.menu ul li a:hover {
+    border-bottom: 2px solid #5A0B0D;
+}
+
+.main-banner {
+    max-width: 100%;
+    margin-top: 18px;
+    padding-bottom: 93px;
+}
+
+.banner img {
+    margin-top: 33%;
+    position: absolute;
+    right: -87px;
+    top: -11px;
+}
+
+.banner-text button {
+    background-color: #FDB13E;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-right: 18px;
+    padding: 8px 21px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.5s ease 0s;
+}
+
+.banner-text button:hover {
+    background: #5A0B0D;
+    color: #fff;
+}
+
+.banner-text {
+    margin-top: 81px;
+}
+
+.banner-text h4 {
+    text-transform: uppercase;
+    line-height: 1.8;
+    color: #5A0B0D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.banner-text p {
+    line-height: 1.8;
+    color: #5A0B0D;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 11px;
+}
+
+
+
+
+/*End Full Header Part*/
+
+
+/*Our service area*/
+
+#our-services {
+    margin-top: 85px;
+}
+
+.section-title h2 {
+    margin: 0 auto;
+    width: 298px;
+    font-family: 'Montserrat', sans-serif;
+    color: #5A0B0D;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.upper {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background: #FDB13E;
+    margin-bottom: 24px;
+}
+
+.services-content-text h3 {
+    color: #5A0B0D;
+    font-weight: 600;
+}
+
+p.content-para {
+    color: #5A0B0D;
+    margin: 18px 0;
+    line-height: 1.8;
+}
+
+a.sevice-btn {
+    display: block;
+    color: #5A0B0D;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: 30px;
+    ne;
+}
+
+.services-content {
+    margin: 76px 0px;
+    padding: 25px;
+}
+
+.services-content:hover {
+    background: #FFF1DD;
+}
+
+
+
+
+/*End Service-section*/
+
+
+/*Leading service*/
+
+section#desing {
+    background: #FFF1DD;
+    padding-top: 100px;
+}
+
+.desing-left h3 {
+    color: #5A0B0D;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 33px;
+    border: 0;
+    border-top: 1px solid #5A0B0D;
+    width: 67px;
+    position: absolute;
+    left: 14px;
+    top: 38px;
+}
+
+hr.section-bar {
+    margin-top: 10px;
+    margin-bottom: 33px;
+    border: 0;
+    border-top: 1px solid #5A0B0D;
+    width: 67px;
+    position: absolute;
+    left: 47%;
+    top: 41px;
+}
+
+p.top,
+p.bottom {
+    margin-top: 21px;
+    color: #5A0B0D;
+    font-size: 17px;
+}
+
+p.bottom {
+    margin-top: 29px;
+}
+
+
+
+
+/*end Leading service*/
+
+
+/*WHO WE ARE START*/
+
+section#who {
+    margin-top: 57px;
+}
+
+.computer {
+    margin-top: 37px;
+}
+
+img.computer-upper {
+    position: relative;
+}
+
+img.computer-screen {
+    position: absolute;
+    top: 51px;
+    left: 429px;
+    max-width: 315px;
+}
+
+
+
+
+/*/END WHO WE ARE*/
+
+
+/*Star phafex*/
+
+#phafex {
+    background-color: #FDB13E;
+    padding-bottom: 43px;
+}
+
+.phafex-text {
+    margin-top: 54px;
+}
+
+.phafex-text p {
+    font-size: 24px;
+    color: #5A0B0D;
+    font-weight: 400;
+}
+
+a.btn {
+    margin-top: 29px;
+    color: #5A0B0D;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    border: 2px solid #5A0B0D;
+}
+
+
+/*/end phafex*/
+
+
+/*start satisfaction*/
+
+
+section#satisfaction {
+    background-image: url(../img/middle_bottom.png);
+    background-color: #FFF1DD;
+    padding: 54px 21px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.satisfaction-content h3 {
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+p.top-satisfaction {
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+
+p.bottom-satisfaction {
+    margin-bottom: 40px;
+}
+
+hr.section-bar-sati {
+    margin-top: 102px;
+    margin-bottom: 33px;
+    border: 0;
+    border-top: 2px solid #5A0B0D;
+    width: 67px;
+    position: absolute;
+    left: 42%;
+    top: 41px;
+}
+
+.satisfaction-content button {
+    background-color: #FDB13E;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-right: 18px;
+    padding: 8px 21px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.5s ease 0s;
+}
+
+.satisfaction-content button:hover {
+    background: #5A0B0D;
+    color: #fff;
+}
+
+
+
+/*/end satisfaction*/
+
+
+/*start Testimonial*/
+
+.people-title {
+    margin: 0 auto;
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+    color: #5A0B0D;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.people-content {
+    margin-top: 25px;
+}
+
+.people-content p {
+    line-height: 1.7;
+    font-size: 15px;
+    font-style: italic;
+}
+
+section#pepole-say {
+    margin-top: 71px;
+    padding-bottom: 103px;
+}
+
+.people-content img {
+    text-align: center;
+    width: 83px;
+    border: 3px solid #FDB13E;
+    border-radius: 15px;
+    margin-left: 38%;
+    margin-top: 37px;
+}
+
+
+/*.slick-arrow {position: absolute;left: -132px;top: 59%;}
+
+.slick-arrow.next-arrow {
+    position: absolute;
+    left: auto;
+    right: 0;
+}*/
+
+span.prev-arrow.slick-arrow {
+    position: absolute;
+    left: -132px;
+    top: 64%;
+    font-size: 22px;
+}
+
+span.next-arrow.slick-arrow {
+    position: absolute;
+    right: -132px;
+    bottom: 81px;
+    font-size: 22px;
+}
+
+.people-content h3 span {
+    color: #FDB13E;
+}
+
+
+/*/end Testimonial*/
+
+
+/*Start footer-top*/
+
+section#footer-top {
+    background-color: #30373A;
+    background-image: url(../img/footer-img.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding: 32px 0px;
+}
+
+section#footer-top img {
+    margin-top: 63px;
+}
+
+.footer-text {
+    margin-top: 32px;
+}
+
+.footer-text p {
+    color: #DFDFDF;
+    margin-left: 15px;
+    line-height: 1.7;
+}
+
+.company {
+    margin-top: 107px;
+    margin-left: 34px;
+}
+
+.company h2 {
+    color: #B7B9B9;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.company a {
+    display: block;
+    margin-top: 9px;
+    color: #B7B9B9;
+    font-weight: 600;
+}
+
+.company .link {
+    margin-top: 36px;
+}
+
+.link a .fa {
+    color: #FCB040;
+    padding: 0 16px 0px 0px;
+}
+
+.link span {
+    margin-left: 29px;
+}
+
+
+/*/end footer-top*/
+
+
+/* start footer*/
+
+.social-footer i {
+    font-size: 19px;
+    border: 1px solid #5A0B0D;
+    margin-bottom: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 17px;
+}
+
+.footer-inner {
+    padding: 45px 0;
+}
+
+.footer-inner p {
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.footer-inner p span {
+    color: #FCB040;
+    font-weight: 600;
+    border-bottom: 1px solid #FEE3C6;
+    margin-left: 4px;
+}
+
+
+/* /end footer*/

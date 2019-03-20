@@ -1,0 +1,213 @@
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+
+	.banner-text button {
+	font-size: 13px;
+	border-radius: 4px;
+	margin-right: 4px;
+	padding: 8px 19px;
+}
+.social {
+	padding: 6px 0px 0px 39px;
+}
+.banner img {
+	margin-top: 33%;
+	right: 3px;
+	top: 46px;
+	width: 88%;
+}
+
+
+
+
+/*}*/
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.banner-text {
+	margin-top: 41px;
+}
+.menu ul li {
+	display: inline-block;
+	padding-left: 0px;
+	padding-top: 38px;
+	float: left;
+}
+.menu ul li a {
+	font-size: 20px;
+	padding-right: 39px;
+}
+.banner img{
+	display: none;
+}
+	
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	i.fa.fa-phone, i.fa.fa-envelope {
+    padding: 0 14px 0px 0px;
+    display: inline;
+}
+.header-top-left {
+
+    padding: 1px;
+    color: #5F0B0D;
+
+}
+.social {
+    padding: 6px 0px 0px 15px;
+    color: #5F0B0D;
+}
+.logo img {
+    max-width: 16%;
+    margin-top: -10px;
+}
+.banner-text {
+    margin-top: 9px;
+}
+.banner-text h4{
+	font-size: 12px;
+}
+.banner-text button {
+	margin: 0px 0px 15px 0;
+}
+.banner img{
+	display: none;
+}
+.menu ul li {
+	display: inline-block;
+	padding-left: 32px;
+	padding-top: 24px;
+	float: left;
+}
+.section-title h2{
+	font-size: 20px;
+}
+hr.section-bar {
+	margin-top: 0px;
+	margin-bottom: 3px;
+	border: 0;
+	border-top: 1px solid #5A0B0D;
+	width: 59px;
+	position: absolute;
+	left: 43%;
+	top: 37px;
+}
+.main-banner {
+	padding-bottom: 44px;
+}
+#our-services {
+	margin-top: 42px;
+}
+.services-content {
+	margin: 21px 0px;
+	padding: 12px;
+}
+section#desing {
+	padding-top: 41px;
+}
+.desing-left h3{
+	padding-left: 5px;
+}
+hr {
+	margin-top: 18px;
+	margin-bottom: 14px;
+	width: 65px;
+	left: 21px;
+	top: 49px;
+}
+p.top, p.bottom {
+	margin-top: 9px;
+	font-size: 12px;
+}
+.phafex-text {
+	margin-top: 21px;
+}
+a.btn {
+	margin-top: 0px;
+}
+.phafex-text p {
+	font-size: 19px;
+}
+hr.section-bar-sati {
+	left: 39%;
+	top: 1%;
+}
+.satisfaction-content h3 {
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+p.top-satisfaction {
+	font-size: 17px;
+	padding-bottom: 6px;
+}	
+.satisfaction-content button {
+	font-size: 13px;
+	margin: 7px;
+	padding: 7px 11px;
+	display: inline-block;
+}
+span.prev-arrow.slick-arrow {
+	left: -14px;
+	top: 63%;
+	font-size: 20px;
+}
+span.next-arrow.slick-arrow {
+	right: 0px;
+	font-size: 20px;
+}
+}
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+hr {
+	top: 29px;
+}
+p.top, p.bottom {
+	font-size: 14px;
+}
+hr.section-bar-sati {
+	top: -6%;
+}		
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+
+}
